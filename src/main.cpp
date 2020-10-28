@@ -188,7 +188,7 @@ void printInfo(const Window& window)
             << " is: " << v << '\n';
     };
 
-    printVertex(window.getBottomLeft(), "bottom-left");
+    printVertex(window.fsdfssdgetBottomLeft(), "bottom-left");
     printVertex(window.getTopRight(), "top-right");
 
     const auto printThickness = [](double d, std::string_view direction)
